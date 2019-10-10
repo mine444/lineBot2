@@ -31,7 +31,7 @@ def callback():
     return '',200
 
 def sendText(user, text):
-    LINE_API = 'https://api.line.me/v2/bot/message/reply' 
+   LINE_API = 'https://api.line.me/v2/bot/message/reply' 
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
     'Authorization': os.environ['Authorization']    # ตั้ง Config vars ใน heroku พร้อมค่า Access token
