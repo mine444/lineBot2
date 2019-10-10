@@ -28,8 +28,9 @@ def callback():
     elif (userText == 'ทำไรดี') :
         sendText(user,'ทำบุญก็ดีนะ')
     else :
-        sendText('ไม่รู้')    return '',200
-def sendText(user, text):
+        sendText('ไม่รู้')   
+    return '',200
+    def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply' 
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
